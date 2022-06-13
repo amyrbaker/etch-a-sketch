@@ -8,8 +8,8 @@ for (let i = 1; i <= 16 * 16; i++) {
 
 container.addEventListener('mouseover', function(e) {
     console.log(e.target)
-    e.target.style.background = 'green';
-    setTimeout(() => e.target.style.background = '', 200)
+    e.target.style.background = 'grey';
+    
 });
 
 
